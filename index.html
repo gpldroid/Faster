@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Faster - واجهة ويب سريعة وعصرية قابلة للتخصيص.">
+  <title>Faster</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#top">Faster</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">الرئيسية</a>
+        <a href="#features">المميزات</a>
+        <a href="#about">حول المشروع</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="badge">⚡ Faster</span>
+        <h1>سرعة أبسط.<br><span>تجربة أفضل.</span></h1>
+        <p>واجهة حديثة وخفيفة مصممة لتكون نقطة انطلاق لمشروع Faster، مع بنية واضحة وسهلة التطوير.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#features">استكشف المميزات</a>
+          <a class="btn btn-secondary" href="#about">اعرف المزيد</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">المميزات</span>
+          <h2>مصمم للسرعة والبساطة</h2>
+          <p>هيكل Front-end مستقل ومنظم، بدون أطر عمل إلزامية.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>خفيف وسريع</h3>
+            <p>ملفات أساسية بسيطة تساعد على تحميل الواجهة وتشغيلها بسرعة.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">📱</div>
+            <h3>متجاوب</h3>
+            <p>تصميم يتكيف مع الهواتف والأجهزة اللوحية والشاشات الكبيرة.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">🧩</div>
+            <h3>سهل التطوير</h3>
+            <p>فصل واضح بين HTML وCSS وJavaScript لتسهيل إضافة الوظائف لاحقاً.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-box">
+        <div>
+          <span class="eyebrow">حول المشروع</span>
+          <h2>بنية جاهزة للبناء عليها</h2>
+          <p>تم إنشاء الهيكل الأساسي للمشروع داخل المستودع مع ملفات الواجهة المطلوبة. يمكنك الآن إضافة الوظائف الخاصة بالمشروع فوق هذه القاعدة.</p>
+        </div>
+        <div class="status-card">
+          <span class="status-dot"></span>
+          <strong>المشروع جاهز</strong>
+          <small>HTML + CSS + JavaScript</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Faster</span>
+      <span>Built with HTML, CSS &amp; JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
